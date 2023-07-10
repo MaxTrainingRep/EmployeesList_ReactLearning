@@ -5,7 +5,7 @@ const AppInfo = ({increased, employees}) => {
         <div className="app-info">
             <h1>List of Employees in company</h1>
             <h2>Emloyees count : {employees}</h2>
-            <h2>Extra money to :{increased}</h2>
+            <h2>Extra money to : {increased}</h2>
         </div>
     )
 }
